@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>STARTLIGHT COLLEGE</title>
+</head>
+
+<body>
+
+    <!--Header section-->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-md navbar-light custom-navbar">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="images/college_logo.png" alt="College Logo">
+                        </a>
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="mynav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                                <li class="nav-item"><a href="academics.html" class="nav-link">ACADEMICS</a></li>
+                                <li class="nav-item"><a href="faculty.html" class="nav-link">FACULTY</a></li>
+                                <li class="nav-item"><a href="admissions.html" class="nav-link">ADMISSIONS</a></li>
+                                <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+                                <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Hero Section Carousel -->
+    <div class="hero-section">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col">
+                    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="heroCarousel" data-bs-slide-to="3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/1_slide.png" class="d-block w-100" alt="Slide 1">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Welcome to Startlight College</h2>
+                                    <p>Experience the vibrant atmosphere of our beautiful campus, where learning meets
+                                        innovation and growth.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2_slide.png" class="d-block w-100" alt="Slide 2">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Excellence in Education</h2>
+                                    <p>Engage in hands-on learning experiences in our state-of-the-art classrooms and
+                                        labs, guided by expert faculty.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/3_slide.png" class="d-block w-100" alt="Slide 3">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Beyond Academics</h2>
+                                    <p>Discover your passions and talents through our diverse range of sports, clubs,
+                                        and cultural events.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/4_slide.png" class="d-block w-100" alt="Slide 3">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Celebrating Excellence</h2>
+                                    <p>Join us as we honor academic achievements and celebrate the spirit of innovation
+                                        and community at our annual Invocation Day.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Departments Section -->
+    <section class="departments py-5">
+        <div class="container">
+            <h2 id="heading_dep" class="text-center mb-5">
+                Departments
+                <span class="line-icon"></span>
+            </h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card dept-card h-100">
+                        <img src="images/cse.png" class="card-img-top" alt="Computer Science Engineering">
+                        <div class="card-body">
+                            <h5 class="card-title">Computer Science Engineering</h5>
+                            <p class="card-text">
+                                Explore programming, AI, data science, and more. Dive into software
+                                development, cybersecurity, and innovation.
+                            </p>
+                            <a href="academics.html#cse-card" class="btn btn-outline-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card dept-card h-100">
+                        <img src="images/me.png" class="card-img-top" alt="Mechanical Engineering">
+                        <div class="card-body">
+                            <h5 class="card-title">Mechanical Engineering</h5>
+                            <p class="card-text">
+                                Hands-on learning in design, manufacturing, robotics, CAD,
+                                and Industry 4.0 technologies.
+                            </p>
+                            <a href="academics.html" class="btn btn-outline-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card dept-card h-100">
+                        <img src="images/ce.png" class="card-img-top" alt="Civil Engineering">
+                        <div class="card-body">
+                            <h5 class="card-title">Civil Engineering</h5>
+                            <p class="card-text">
+                                Build sustainable infrastructure. Learn structural design,
+                                transportation systems, and environmental engineering.
+                            </p>
+                            <a href="academics.html#civil-card" class="btn btn-outline-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card dept-card h-100">
+                        <img src="images/eee.png" class="card-img-top" alt="EEE">
+                        <div class="card-body">
+                            <h5 class="card-title">Electrical & Electronics Engineering</h5>
+                            <p class="card-text">
+                                Innovate with power systems, electronics, automation,
+                                IoT, embedded systems, and renewable energy.
+                            </p>
+                            <a href="academics.html#eee-card" class="btn btn-outline-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 offset-lg-3">
+                    <div class="card dept-card h-100">
+                        <img src="images/ce2.png" class="card-img-top" alt="Chemical Engineering">
+                        <div class="card-body">
+                            <h5 class="card-title">Chemical Engineering</h5>
+                            <p class="card-text">
+                                Transform raw materials into valuable products.
+                                Learn process optimization and sustainability.
+                            </p>
+                            <a href="academics.html#ce-card" class="btn btn-outline-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">                                                                                                                                                                                                                                                                                                                                                                 
+                    <div class="card dept-card h-100">
+                        <img src="images/bba.png" class="card-img-top" alt="Management Studies">
+                        <div class="card-body">
+                            <h5 class="card-title">Management Studies (BBA / MBA)</h5>
+                            <p class="card-text">
+                                Develop leadership and business skills in finance,
+                                marketing, HR, and entrepreneurship.
+                            </p>
+                            <a href="academics.html#ms-card" class="btn btn-outline-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--why choose us-->
+    <section class="why-choose-us">
+        <div id="choose" class="container">
+            <h2 id="choose-heading">Why choose us?<span class="line-icon"></span></h2>
+            <div class="row g-2 justify-content-center">
+                <div class="info-card m-3 col-sm-3">
+                    <h5>Experienced qualified Faculty</h5>
+                </div>
+                <div class="info-card m-3 col-sm-3">
+                    <h5>Modern Infrastructure & labs</h5>
+                </div>
+                <div class="info-card m-3 col-sm-3">
+                    <h5>Strong Placement Support</h5>
+                </div>
+                <div class="info-card m-3 col-sm-3">
+                    <h5>Industry-oriented Curriculum</h5>
+                </div>
+                <div class="info-card m-3 col-sm-3">
+                    <h5>Smart Classrooms & E-Learning</h5>
+                </div>
+                <div class="info-card m-3 col-sm-3">
+                    <h5>NAAC / AICTE Recognized</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+<section id="testimonials">
+    <div class="container">
+        <div class="testimonial">
+            <p>
+                "The placement support was excellent. I got placed before graduation."
+            </p>
+            <h4>Priya - MBA</h4>
+        </div>
+        <div class="testimonial">
+            <p>
+                "Industry-oriented curriculum and supportive mentors."
+            </p>
+            <h4>Amit - ECE</h4>
+        </div>
+        <div class="testimonial">
+            <p>
+                "Great faculty, modern labs, and real-world projects."
+            </p>
+            <h4>Rahul -  CSE</h4>
+        </div>
+    </div>
+</section>
+
+<!--footer section-->
+<footer class="footer-dark pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <img class="footer-logo" src="images/college_logo.png" alt="college_logo">
+        <p class="footer-text">
+          Starlight College is committed to quality education, innovation,
+          and excellent placement support.
+        </p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5 class="footer-title">Quick Links</h5>
+        <ul class="list-unstyled footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="faculty.html">Faculty</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5 class="footer-title">Contact Us</h5>
+        <p><i class="bi bi-geo-alt"></i> Bathinda, Punjab</p>
+        <p><i class="bi bi-telephone"></i> +91 98765 43210</p>
+        <p><i class="bi bi-envelope"></i> info@starlightcollege.edu.in</p>
+        <div class="social-icons mt-3">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr class="footer-line">
+    <div class="text-center footer-bottom">
+      © 2026 Starlight College. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+    <!--Bootstrap Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

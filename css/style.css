@@ -1,0 +1,778 @@
+
+/* header section css */
+.header {
+  background-color: #c5fffc;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(218, 127, 0, 0.1);
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #2d5b7bb6;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.navbar-brand img {
+  height: 110px; 
+  width: auto;
+}
+.navbar-nav {
+  margin-left: auto; 
+}
+.nav-link {
+  color: rgba(10, 25, 70, 1) !important;
+  font-weight: 500;
+  margin-right: 15px;
+}
+.custom-navbar .nav-link {
+  display: inline-block;
+  padding: 10px 16px;
+}
+.custom-navbar .nav-link:hover {
+    background-color: rgba(10, 25, 70, 1) !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+.custom-navbar .navbar-toggler {
+  border-color: rgba(10, 25, 70, 1);
+}
+.custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(10,25,70,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* hero section css */
+#heroCarousel .carousel-item {
+  height: 75vh; 
+}
+#heroCarousel .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Departments Section */
+.departments {
+    background-color: #c2dcf6;
+}
+#heading_dep {
+    font-weight: 700;
+    position: relative;
+}
+.line-icon {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #0d6efd;
+    margin: 10px auto 0;
+}
+.dept-card {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(135, 134, 134, 0.08);
+}
+.dept-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+.dept-card img {
+    height: 180px;
+    object-fit: cover;
+}
+.dept-card .card-body {
+    text-align: center;
+    padding: 20px;
+}
+.dept-card .card-title {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.dept-card .card-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.dept-card .btn {
+    border-radius: 25px;
+    padding: 6px 20px;
+    color: rgba(10, 25, 70, 1);
+    border: 2px solid rgba(10, 25, 70, 1);
+}
+.dept-card .btn:hover {
+    background-color: rgba(10, 25, 70, 1);
+    color: #ffffff;
+    border-color: rgba(10, 25, 70, 1);
+}
+
+/*why choose us*/
+.why-choose-us{
+  padding-top: 40px;
+  margin-bottom: 40px;
+  background-color: rgb(244, 254, 254);
+}
+.line-icon {
+    display: block;
+    width: 90px;
+    height: 3px;
+    background-color: rgba(10, 25, 70, 1);
+    margin: 2px auto 0;
+}
+#choose-heading{
+  text-align: center;
+  color: rgba(10, 25, 70, 1);
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.why-choose-us .col-sm-4{
+  border: 2px solid rgb(162, 65, 65);
+}
+.why-choose-us .col-sm-4 h5{
+  text-align: center;
+  color: rgb(75, 74, 74);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/*tesstimonails*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#testimonials {
+    min-height: 60vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),
+        url('../images/testimonials.png');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+}
+#testimonials .container {
+    display: flex;
+    gap: 20px;
+}
+.testimonial {
+    background: rgba(255,255,255,0.1);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+.testimonial p {
+    font-size: 16px;
+    color: white;
+}
+.testimonial h4 {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #ffd700;
+}
+
+/*footer section*/
+.footer-dark {
+  background-color:  #f8fafc;
+  border-top: 4px solid #dae9ff;
+}
+.footer-title {
+  color: #0b1c2d;
+  margin-bottom: 15px;
+}
+.footer-dark .footer-logo{
+  width: 170px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.footer-text {
+  font-size: 14px;
+  color: #475569;
+}
+.footer-links li {
+  margin-bottom: 8px;
+}
+.footer-links a {
+  color: #0ea5e9;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer-links a:hover {
+  color: #0284c7;
+}
+.social-icons a {
+  color: #393d42;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.social-icons a:hover {
+  color: #38bdf8;
+}
+.footer-line {
+  border-color: #e2e8f0;
+}
+.footer-bottom {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+
+/*==========academics.html==========*/
+/* breadcrumb */
+.page-banner {
+  background-color: #f8fafc; 
+  padding: 60px 20px;
+  border-bottom: 1px solid #e2e8f0;
+}
+.page-banner h1 {
+  color: #0b1c2d;
+  margin-bottom: 10px;
+}
+.page-banner .breadcrumb {
+  background: transparent;
+  font-size: 14px;
+}
+.page-banner .breadcrumb-item a {
+  color: #0ea5e9;
+  text-decoration: none;
+}
+.page-banner .breadcrumb-item.active {
+  color: #64748b;
+}
+
+/* department-detailed cards */
+.dep-detail{
+  margin-top: 0px;
+  background-color: rgb(223, 250, 248);
+}
+.card{
+  background-color: rgb(255, 239, 239);
+  border-color: red;;
+}
+.card-header{
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(60, 0, 0);
+  height: 90px;
+  text-align:center;
+}
+.card-text{
+  font-weight: 400;
+}
+.card-body{
+  color: rgb(60, 0, 0);;
+}
+.list-group-item{
+  border-color: red;
+  color: rgb(46, 46, 46);
+  font-size: small;
+  font-weight: 500;
+}
+.badge{
+  background-color: rgb(112, 26, 26);
+  border-radius: 20px;
+}
+.dep-detail .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.dep-detail .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/*academic table*/
+.academic-calender {
+  background-color: rgb(223, 250, 248);
+  padding: 20px 0;
+}
+.academic-calender h2{
+  color: black;
+  font-weight: 800; 
+}
+.academic-calender .table {
+  margin-bottom: 8px;
+  color:#333;
+}
+.academic-calender th {
+  font-size: 25px;
+  background-color: white;
+  color: rgb(112, 26, 26);
+}
+.academic-calender table tbody tr{
+  background-color: rgb(251, 237, 237);
+}
+.academic-calender .table-hover tbody tr:hover {
+  background-color: rgb(112, 26, 26);
+  color: white;
+   transition: transform 0.2s;
+  transform: translateY(-2px);
+}
+.academic-calender .table-hover tbody tr:hover td {
+  color: white;
+}
+
+/* teaching methododology, Laboratories, academic-highlights */
+#methododology, #Laboratories, #Highlights {
+  background-color: rgb(223, 250, 248);
+}
+.info-card {
+  background: #f3ebeb;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #f50d0d;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* CTA section */
+.cta-section {
+  background-image: url('../images/testimonials.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px; 
+  border-top: 2px solid #e2e8f0;
+}
+.cta-section h2 {
+  color: rgb(255, 255, 255);
+}
+.cta-section p {
+  color: #d9dfe8;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+/* =========faculty.html========= */
+ /* faculty overview */
+.faculty-overview {
+  background-color:  rgb(223, 250, 248);
+}
+.overview-card {
+  background: #f2f6f6;
+  padding: 25px;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+.overview-card:hover{
+  transform: translateY(-5px);
+  transition: all 0.2 ease;
+}
+
+/* department-overview */
+.faculty-departments{
+  background-color: rgb(223, 250, 248);
+}
+.faculty-card {
+  text-align: center;
+  color: rgba(10, 25, 70, 1);
+  background: #f2f6f6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+.faculty-card img {
+  width: 310px;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 2%;
+  margin-bottom: 15px;
+  border: 3px solid black;
+}
+.faculty-card h5 {
+  margin-bottom: 5px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.faculty-card p {
+  margin-bottom: 3px;
+  color: rgba(10, 25, 70, 0.837);
+}
+.faculty-card span {
+  font-size: 14px;
+  color: rgba(10, 25, 70, 0.867);
+}
+
+/* teaching hightlights */
+.teaching-highlights {
+  background-color: #252222;
+}
+.highlight-box {
+  background: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* student-faculty-ratio */
+.faculty-stats {
+  background-color: #e5f4f9;
+}
+.stat-card {
+  padding: 25px;
+  border-radius: 10px;
+  background: #020d19;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+.stat-card h3 {
+  color: yellow;
+  font-weight: 700;
+}
+.stat-card p{
+  color: yellow;
+}
+
+/* admission.css */
+.admission-choose{
+  background-color: rgb(223, 250, 248);
+}
+.course-list{
+  background-color: rgb(223, 250, 248);
+}
+.course-list .list-group-item{
+  border-bottom: 3px solid gray ;
+  font-size: 18px;
+}
+.info-card {
+    background: rgb(248, 238, 242);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: content-fit;
+}
+.process {
+  background-color: #e5f4f9;
+  padding: 40px 0;
+}
+.process-step {
+  background: #020d1981;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.816);
+  transition: transform 0.2s;
+}
+.process-step:hover {
+  transform: translateY(-5px);
+}
+.process-step i {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.elegibility{
+  background-color: #e5f4f9;
+}
+.im-dates{
+  background-color: #e5f4f9;
+}
+.im-dates .list-groups{
+  background-color: #e5f4f9;
+}
+.req-documents{
+  background-color: #e5f4f9;
+}
+.document-list {
+    max-width: 400px;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+.document-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+.structure{
+  background-color: #e5f4f9;
+}
+.faq{
+  background-color: #e5f4f9;
+}
+details {
+    margin-bottom: 10px;
+}
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+#enquiry{
+  background-color: #e5f4f9;
+}
+
+/* about.html */
+section {
+  scroll-margin-top: 80px;
+}
+section h2,
+section h3 {
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+section p {
+  line-height: 1.7;
+  color: #555;
+}
+.about{
+  background-color: #e5f4f996;
+}
+.about-institution img {
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.about-institution p {
+  font-size: 1.05rem;
+}
+
+/* vission,mission and values */
+.vision{
+  background-color:  #e5f4f9;
+}
+.vmv-section .card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.vmv-section .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+.vmv-section h5 {
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+/* leadership section */
+.leadership{
+  background-color:  #e5f4f9;
+}
+.leadership img {
+  padding: 1px;
+}
+.leadership blockquote {
+  font-size: 1.1rem;
+  font-style: italic;
+  border-left: 4px solid #0d6efd;
+  padding-left: 15px;
+  color: #333;
+}
+
+/* academic-excellence */
+.academic-excellence{
+  background-color:  #e5f4f9;
+}
+.academics p {
+  max-width: 850px;
+  margin: auto;
+  font-size: 1.05rem;
+}
+
+/* achievements and awards */
+.achievments{
+  background-color: #e5f4f9;
+}
+.achievements p {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+/* location-section */
+.location {
+  background-color: #e5f4f9;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/*=========contact.html========*/
+    .page-header {
+      background-color: #e5f4f996;
+      color: rgb(6, 45, 68);
+      padding: 60px 0;
+      text-align: center;
+    }
+    .section-padding {
+      background-color: #e5f4f9;
+      padding: 60px 0;
+    }
+  
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .section-title h2 {
+      font-weight: 500;
+      color: rgb(6, 45, 68);
+    }
+    .contact-card {
+      background: #fafdffd7;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      height: 100%;
+    }
+    .contact-card h5 {
+      font-weight: 600;
+      color: #084298;
+    }
+    .contact-card p {
+      margin-bottom: 6px;
+      color: #555;
+    }
+    .timeline-box {
+      background: #f5f9fa;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+    }
+    .timeline-box span {
+      font-weight: 600;
+    }
+    .form-control, .form-select {
+      border-radius: 6px;
+    }
+    .map-box {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    .note-box {
+      background: white;
+      padding: 20px;
+      border-left: 5px solid #091931;
+      border-radius: 8px;
+    }
+
+
+
+@media (max-width: 576px) {
+  /* Header / Navbar */
+  .navbar-brand img {
+    height: 70px;
+  }
+  .nav-link {
+    margin-right: 0;
+    padding: 8px 12px;
+    text-align: center;
+  }
+  /* Hero Section */
+  #heroCarousel .carousel-item {
+    height: 45vh;
+  }
+  /* Departments */
+  .dept-card img {
+    height: 150px;
+  }
+  /* Why Choose Us */
+  .why-choose-us .col-sm-4 {
+    margin-bottom: 20px;
+  }
+  /* Testimonials */
+  #testimonials .container {
+    flex-direction: column;
+  }
+  .testimonial {
+    margin-bottom: 15px;
+  }
+  /* Footer */
+  .footer-dark {
+    text-align: center;
+  }
+  .social-icons {
+    justify-content: center;
+  }
+  /* academic.html */
+  .dep-detail .card{
+    height: fit-content;
+  }
+  .card-header{
+    height: fit-content;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Hero */
+  #heroCarousel .carousel-item {
+    height: 55vh;
+  }
+  /* Testimonials */
+  #testimonials .container {
+    flex-direction: column;
+  }
+  /* Footer */
+  .footer-dark {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+  .navbar-brand img {
+    height: 90px;
+  }
+  /* Hero */
+  #heroCarousel .carousel-item {
+    height: 65vh;
+  }
+  /* Departments */
+  .dept-card img {
+    height: 160px;
+  }
+  /* Testimonials */
+  #testimonials .container {
+    flex-wrap: wrap;
+  }
+  .testimonial {
+    flex: 1 1 48%;
+  }
+  /* Footer */
+  .footer-dark {
+    text-align: left;
+  }
+  /*academic.html*/
+  .dep-detail .card{
+    height: 870px;
+  }
+  .card-header{
+    height: 155px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Hero */
+  #heroCarousel .carousel-item {
+    height: 70vh;
+  }
+  /* Testimonials */
+  .testimonial {
+    padding: 20px;
+  }
+/*academic.html*/
+  .dep-detail .card{
+    height: fit-content;
+  }
+  .card-header{
+    height: fit-content;
+  }
+  /*academic.html*/
+  .dep-detail .card{
+    height: 700px;
+  }
+  .card-header{
+    height: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  #heroCarousel .carousel-item {
+    height: 75vh;
+  }
+}
