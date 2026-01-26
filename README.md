@@ -56,7 +56,7 @@ starlight-college-website/
 
 ## 🌐 Live Demo
 👉 GitHub Pages Link:  
-
+https://studentjannatbali.github.io/starlight-college-website/
 ---
 
 ## Project Status
