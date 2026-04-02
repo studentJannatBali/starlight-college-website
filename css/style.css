@@ -168,6 +168,68 @@
     color: #ffd700;
 }
 
+/*  EVENTS SECTION */
+#events {
+  background: #f4f8ff;
+  padding: 40px;
+}
+
+.events-heading {
+  text-align: center;
+  font-weight: 700;
+}
+
+.event-search {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.eventCard {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.eventCard:hover {
+  transform: translateY(-8px);
+}
+
+.eventCard h3 {
+  color: #333;
+}
+
+.eventCard .date {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.eventBtn {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.eventBtn:hover {
+  background: #0056b3;
+}
+
 /*footer section*/
 .footer-dark {
   background-color:  #f8fafc;
@@ -775,4 +837,48 @@ section p {
   #heroCarousel .carousel-item {
     height: 75vh;
   }
+}
+
+
+
+
+
+
+#events {
+  background: #f4f8ff;
+}
+
+.eventCard {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.eventCard:hover {
+  transform: translateY(-8px);
+}
+
+.eventCard h3 {
+  color: #333;
+}
+
+.eventCard .date {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.eventBtn {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.eventBtn:hover {
+  background: #0056b3;
 }

@@ -255,33 +255,41 @@
 <section id="enquiry" class="py-5">
     <div class="container">
         <h2 class="text-center mb-4">Admission Enquiry</h2>
-        <form class="row g-3">
+
+        <form id="admissionForm" class="row g-3">
+
             <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Full Name">
+                <input type="text" id="studentName" class="form-control" placeholder="Full Name">
             </div>
+
             <div class="col-md-6">
-                <input type="email" class="form-control" placeholder="Email">
+                <input type="email" id="studentEmail" class="form-control" placeholder="Email">
             </div>
+
             <div class="col-md-6">
-                <input type="tel" class="form-control" placeholder="Mobile Number">
+                <input type="tel" id="phone" class="form-control" placeholder="Mobile Number">
             </div>
+
             <div class="col-md-6">
-                <select class="form-select">
-                    <option>Select Course</option>
+                <select id="course" class="form-select">
+                    <option value="">Select Course</option>
                     <option>Computer Science Engineering</option>
                     <option>Mechanical Engineering</option>
-                    <option>Electrical and Electronic Engineering </option>
-                    <option>Civil Engineering </option>
+                    <option>Electrical and Electronic Engineering</option>
+                    <option>Civil Engineering</option>
                     <option>Chemical Engineering</option>
-                    <option>Management courses (BBA/MBA)</option>
+                    <option>Management (BBA/MBA)</option>
                 </select>
             </div>
+
             <div class="col-12">
-                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                <textarea id="message" class="form-control" rows="4" placeholder="Message"></textarea>
             </div>
+
             <div class="col-12 text-center">
-                <button class="btn btn-primary">Submit Enquiry</button>
+                <button type="submit" class="btn btn-primary">Submit Enquiry</button>
             </div>
+
         </form>
     </div>
 </section>
@@ -348,7 +356,7 @@
     </div>
   </div>
 </footer>
-
+    <script src="script.js"></script>
     <!--Bootstrap Javascript-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

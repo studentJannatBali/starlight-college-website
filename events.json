@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Hackathon 2026",
+    "date": "April 10, 2026",
+    "description": "Join our coding event"
+  },
+  {
+    "title": "Tech Seminar",
+    "date": "April 15, 2026",
+    "description": "Learn about AI"
+  },
+   {
+    "title": "Cultural Fest",
+    "date": "April 20, 2026",
+    "description": "Music, dance and fun activities"
+  },
+  { "title": "Tech Fest 2025", 
+    "date": "April 15, 2025", 
+    "description": "Annual technology festival" },
+
+  { "title": "Career Fair", 
+    "date": "May 5, 2025", 
+    "description": "Meet top recruiters" }
+]
+
