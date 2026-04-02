@@ -14,6 +14,7 @@ https://studentjannatbali.github.io/starlight-college-website/
 ---
 
 ## ✨ Key Features
+  tell steps again i have offef the terminal so tell 
 
 ### 📝 Interactive Forms
 - Contact form stores messages with timestamps  
